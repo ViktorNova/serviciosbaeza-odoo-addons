@@ -159,7 +159,7 @@ class Agreement(orm.Model):
                            cr, uid, 'sale', context=c)),
         'prolong': 'unlimited',
         'prolong_interval': 1,
-        'prolong_unit': 'years',
+        'prolong_unit': 'months',
         'state': 'empty',
         'renewal_state': 'not_renewed',
     }
